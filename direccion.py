@@ -30,7 +30,7 @@ parqueo='on'
 latitud="4.70380163192749"
 longitud="-74.0520248413086"
 punto=latitud+","+longitud
-geolocator=GoogleV3(api_key="AIzaSyBYHgXOxPPx74KZ4fymopcM3j2PszfwqtA")
+geolocator=GoogleV3(api_key="")
 direccion=geolocator.reverse(punto)
 direccion=direccion[0]
 y = direccion.split(",")
