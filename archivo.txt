@@ -1,0 +1,4 @@
+gran dia para estudiar python 
+Esta linea ha sido incluida desde el exterior
+domingo antes de clase
+siempre es un buen dia para estudiar python

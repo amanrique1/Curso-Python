@@ -1,0 +1,13 @@
+1. crear setup.py
+setup(
+	name="paquetecalculos",
+	version="1.0",
+	description="paquete de redondeo y potencia",
+	author="Andres",
+	author_email="andress0199@outlook.com"
+	packages=["Calculos","Calculos.redondeoYpotencia"] //esta es la ruta del paquete a convertir
+	)
+2. python setup.py sdist (se genera carpeta dist y otra)
+3. entrar a dist
+4. pip3 install archivo.tar.gz
+5. usar en la clase usando from nombre import *
